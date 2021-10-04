@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   <h3>Create an HTML page, which should contain all types of input elements</h3>
+  <form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="pwd"> <br>
+    <label for="gender">Gender:</label>
+       male<input type="radio" id="gender" name="gender"  checked>
+       female<input type="radio" id="gender" name="gender"><br><br>
+       <label for="birthday">Birthday:</label>
+       <input type="date" id="birthday" name="birthday"> <br><br>
+       <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+       <label for="vehicle1"> I have a bike</label><br>
+       <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+       <label for="vehicle2"> I have a car</label><br>
+       <label for="favcolor">Select your favorite color:</label>
+       <input type="color" id="favcolor" name="favcolor">
+       <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth"><br><br>
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"> <br>
+        <label for="vol">Volume (between 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50"> <br>
+        <label for="gsearch">Search Google:</label>
+        <input type="search" placeholder="search" id="gsearch" name="gsearch">
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" placeholder="enter telphone no" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br> <br>
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week"> 
+        <label for="homepage">Add your homepage:</label>
+        <input type="url" placeholder="url address" id="homepage" name="homepage"> <br> <br>
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+        <br> <br>
+        <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
